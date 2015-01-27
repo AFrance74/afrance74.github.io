@@ -1,0 +1,58 @@
+
+/* .L.ord .V.ader's .F.ormer .H.andle is .A.nakin - mnemonic device for order of pseudo-classes.
+See order of "nav a" selectors below: Link, Visited, Focus, Hover, Active*/
+
+/* GLOBAL */
+/* use a color & pattern for global background look - use colourlover.com */
+
+
+/* NAV */
+
+nav a:link, 
+nav a:visited{
+  color: #9c6b95;
+  text-decoration: none;
+}
+
+nav a:focus {
+ 	background: #E5C49A;
+ }
+
+
+nav a:hover {
+	background-color: #B2B294;
+	color: #3E4B62;
+}
+
+nav a:active {
+	background: #E5C49A;
+}
+
+
+/* BIO */
+
+h1 {
+	font-family: 'Lobster';
+	margin: 100px 0 0 20px;
+}
+
+h3 {
+	margin: auto 20px;
+}
+
+.contact-info {
+	list-style: none;
+
+}
+
+/* Put border around bio-content - make it spiffy */
+.bio-content {
+	margin: 10px 500px 10px 10px;
+	background-color: #B2B294;
+
+}
+
+/* Listed content should be - what?  Columns, maybe? */
+.listed-content {
+
+}
