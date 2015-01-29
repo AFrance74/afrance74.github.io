@@ -4,6 +4,9 @@ See order of "nav a" selectors below: Link, Visited, Focus, Hover, Active*/
 
 /* GLOBAL */
 /* use a color & pattern for global background look - use colourlover.com */
+body {
+	font-family: 'Slabo 27px', serif;
+}
 
 
 /* NAV */
@@ -32,11 +35,14 @@ nav a:active {
 /* BIO */
 
 h1 {
-	font-family: 'Lobster';
+	font-family: 'Open Sans', sans-serif;
+	color: #545C82;
 	margin: 100px 0 0 20px;
 }
 
 h3 {
+	font-family: 'Open Sans', sans-serif;
+	color: #545C82;
 	margin: auto 20px;
 }
 
@@ -48,11 +54,16 @@ h3 {
 /* Put border around bio-content - make it spiffy */
 .bio-content {
 	margin: 10px 500px 10px 10px;
-	background-color: #B2B294;
+	background-color: ;
 
 }
 
 /* Listed content should be - what?  Columns, maybe? */
 .listed-content {
 
+}
+
+footer {
+	border-top: 2px solid #3E4B62;
+	border-bottom: 10px solid #3E4B62;
 }
