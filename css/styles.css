@@ -6,10 +6,21 @@ See order of "nav a" selectors below: Link, Visited, Focus, Hover, Active*/
 /* use a color & pattern for global background look - use colourlover.com */
 body {
 	font-family: 'Slabo 27px', serif;
+	/*background: url("http://www.colourlovers.com/images/badges/n/2106/2106430_Fossilized.png");*/
+	background: #E5C49A;
 }
 
+header {
+	background-color: #B2B294;
+	border-bottom: 5px solid #3E4B62;
 
-/* NAV */
+}
+
+/************* NAV *******************************/
+
+nav ul {
+	list-style: none;
+}
 
 nav a:link, 
 nav a:visited{
@@ -21,7 +32,6 @@ nav a:focus {
  	background: #E5C49A;
  }
 
-
 nav a:hover {
 	background-color: #B2B294;
 	color: #3E4B62;
@@ -31,13 +41,27 @@ nav a:active {
 	background: #E5C49A;
 }
 
+/*********** END OF NAV *************************/
 
-/* BIO */
+
+.cover-image {
+	max-width: 1000px;
+	height: 490px;
+	border-radius: 5%;
+	border: 7px solid #3E4B62;
+	margin: 10px 10%;
+}
+
+
+/**************************************************
+	BIO  and RESUME
+***************************************************/
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	color: #545C82;
 	margin: 100px 0 0 20px;
+	text-shadow: 5px 8px 10px;
 }
 
 h3 {
@@ -46,24 +70,89 @@ h3 {
 	margin: auto 20px;
 }
 
+.bio-heading {
+	float: right;
+	margin: 50px;
+	padding: 50px;
+}
+
+blockquote {
+	float: right;
+}
+
+
+.head-shot {
+	width: 150px;
+	height: 200px;
+	border: 7px solid #3E4B62;
+	border-radius: 50%;
+	margin: 20px 40px;
+	box-shadow: 5px 10px 10px rgba(5, 5, 5, .4);
+}
+
 .contact-info {
+	padding: 10px 0;
+	border-bottom: 2px solid #3E4B62;
+	overflow: auto;
+}
+
+.direct-contact ul {
+	margin: 1px;
+	float: left;
+}
+
+.direct-contact li {
+	text-decoration: none;
 	list-style: none;
-
 }
 
-/* Put border around bio-content - make it spiffy */
+.web-links ul {
+	list-style: none;
+	margin: 1px 50px;
+	padding-right: 50px;
+	float: right;
+}
+.web-links li a:link,
+.web-links li a:visited {
+	text-decoration: none;
+	color: #9c6b95;
+}
+
+.content {
+	overflow: auto;
+}
+
+.about-me {
+	margin: 0;
+}
+
+.bio-content,
+.resume-content {
+	width: 45%;
+	box-sizing: border-box;
+	margin: 5px;
+	padding: 10px 10px 10px 40px;
+}
+
+.resume-content {
+	float: right;
+}
+
 .bio-content {
-	margin: 10px 500px 10px 10px;
-	background-color: ;
-
+	float: left;
 }
 
-/* Listed content should be - what?  Columns, maybe? */
-.listed-content {
 
-}
 
 footer {
 	border-top: 2px solid #3E4B62;
 	border-bottom: 10px solid #3E4B62;
+	text-align: center;
+	padding-bottom: 10px;
+	box-sizing: border-box;
 }
+.home-page {
+	text-decoration: none;
+	color: #9c6b95;
+}
+
