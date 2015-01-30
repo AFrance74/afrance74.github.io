@@ -4,7 +4,6 @@
 body {
 	font-family: 'Slabo 27px', serif;
 	background: #E5C49A;
-	/*max-width: 1230px;*/
 }
 
 header {
@@ -74,7 +73,7 @@ nav a:active {
 
 
 /**************************************************
-	BIO  and RESUME PAGE
+	          BIO/RESUME PAGE
 ***************************************************/
 
 h1 {
@@ -94,10 +93,6 @@ h3 {
 	margin: 50px;
 	padding: 50px 0;
 }
-
-/*blockquote {
-	float: right;
-}*/
 
 
 .head-shot {
@@ -160,17 +155,9 @@ h3 {
 	float: left;
 }
 
-
 .home-page {
 	text-decoration: none;
 	color: #9c6b95;
 }
 
-
-/********** MEDIA QUERIES ****************/
-
-/*@media (min-width: 1080px) {
-	body {
-
-	}
-}*/
+/******* END OF BIO/RESUME *********/
