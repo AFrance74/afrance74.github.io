@@ -1,22 +1,41 @@
 
-/* .L.ord .V.ader's .F.ormer .H.andle is .A.nakin - mnemonic device for order of pseudo-classes.
-See order of "nav a" selectors below: Link, Visited, Focus, Hover, Active*/
+/***************** GLOBAL *************************/
 
-/* GLOBAL */
-/* use a color & pattern for global background look - use colourlover.com */
 body {
 	font-family: 'Slabo 27px', serif;
-	/*background: url("http://www.colourlovers.com/images/badges/n/2106/2106430_Fossilized.png");*/
 	background: #E5C49A;
+	/*max-width: 1230px;*/
 }
 
 header {
 	background-color: #B2B294;
 	border-bottom: 5px solid #3E4B62;
-
 }
 
-/************* NAV *******************************/
+footer {
+	border-top: 2px solid #3E4B62;
+	border-bottom: 10px solid #3E4B62;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+/************* HOME PAGE & NAV *******************************/
+
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+
+#main-heading {
+	margin: 0 0 0 10%;
+	padding-left: 18px;
+}
+
+nav {
+	margin: 0 0 0 10%;
+}
 
 nav ul {
 	list-style: none;
@@ -41,12 +60,13 @@ nav a:active {
 	background: #E5C49A;
 }
 
-/*********** END OF NAV *************************/
+/****** END OF NAV ******/
 
 
 .cover-image {
-	max-width: 1000px;
-	height: 490px;
+	max-width: 100%;
+	min-width: 1030px;
+	height: 100%;
 	border-radius: 5%;
 	border: 7px solid #3E4B62;
 	margin: 10px 10%;
@@ -54,13 +74,12 @@ nav a:active {
 
 
 /**************************************************
-	BIO  and RESUME
+	BIO  and RESUME PAGE
 ***************************************************/
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	color: #545C82;
-	margin: 100px 0 0 20px;
 	text-shadow: 5px 8px 10px;
 }
 
@@ -73,12 +92,12 @@ h3 {
 .bio-heading {
 	float: right;
 	margin: 50px;
-	padding: 50px;
+	padding: 50px 0;
 }
 
-blockquote {
+/*blockquote {
 	float: right;
-}
+}*/
 
 
 .head-shot {
@@ -109,7 +128,6 @@ blockquote {
 .web-links ul {
 	list-style: none;
 	margin: 1px 50px;
-	padding-right: 50px;
 	float: right;
 }
 .web-links li a:link,
@@ -143,16 +161,16 @@ blockquote {
 }
 
 
-
-footer {
-	border-top: 2px solid #3E4B62;
-	border-bottom: 10px solid #3E4B62;
-	text-align: center;
-	padding-bottom: 10px;
-	box-sizing: border-box;
-}
 .home-page {
 	text-decoration: none;
 	color: #9c6b95;
 }
 
+
+/********** MEDIA QUERIES ****************/
+
+/*@media (min-width: 1080px) {
+	body {
+
+	}
+}*/
