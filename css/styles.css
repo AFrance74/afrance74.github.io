@@ -1,10 +1,10 @@
 
 /***************** GLOBAL *************************/
 
-body {
+/*body {
 	font-family: 'Slabo 27px', serif;
 	background: #E5C49A;
-}
+}*/
 
 header {
 	background-color: #B2B294;
@@ -76,7 +76,7 @@ nav a:active {
 	          BIO/RESUME PAGE
 ***************************************************/
 
-h1 {
+/*h1 {
 	font-family: 'Open Sans', sans-serif;
 	color: #545C82;
 	text-shadow: 5px 8px 10px;
@@ -86,7 +86,7 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 	color: #545C82;
 	margin: auto 20px;
-}
+}*/
 
 .bio-heading {
 	float: right;
@@ -161,3 +161,70 @@ h3 {
 }
 
 /******* END OF BIO/RESUME *********/
+
+
+/* Layout for Style Tile
+Feel free to change */
+
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+/* Set Your Own Typography */
+
+.container h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.container h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.container h3 {
+	font-family: 'Indie Flower', serif;
+}
+
+section {
+	margin: 20px 0;
+}
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+/* color palette */
+
+.color-1 {
+	background: red;
+}
+.color-2 {
+	background: blue;
+}
+
+
+
+
+
+
+
+
