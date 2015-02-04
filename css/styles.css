@@ -76,7 +76,7 @@ nav a:active {
 	          BIO/RESUME PAGE
 ***************************************************/
 
-/*h1 {
+h1 {
 	font-family: 'Open Sans', sans-serif;
 	color: #545C82;
 	text-shadow: 5px 8px 10px;
@@ -86,7 +86,7 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 	color: #545C82;
 	margin: auto 20px;
-}*/
+}
 
 .bio-heading {
 	float: right;
