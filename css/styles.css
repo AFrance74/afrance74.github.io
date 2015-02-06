@@ -200,6 +200,7 @@ Feel free to change */
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 }*/
+/* No H2 level headings at this time. */
 
 .container h3 {
 		
@@ -215,14 +216,26 @@ section {
 }
 
 /* Set Your Own Margin & Padding */
-h2, h3, p {
+.st-header h1, h3 {
 	margin: 0;
+	padding-left: 50px;
 }
 
-/* Clearfix - Oo Not Remove */
+.st-header p {
+	margin: 0;
+	padding: 0 0 30px 50px;
+}
+
+
+/* Clearfix - Do Not Remove */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 
 /* color palette */
+
+.palettes {
+	background: #E5C49A;
+	float: left;
+}
 
 .color-1 {
 	background: #3E4B62;
@@ -253,4 +266,27 @@ h2, h3, p {
 
 .pattern-3 {
 	background: url("../img/COLOURlovers.com-bubble_impressions.png")
+}
+
+.st-links:link,
+.st-links:visited {
+	color: #9c6b95;
+  	text-decoration: none;
+}
+
+.st-links:focus {
+ 	background: #E5C49A;
+ }
+
+.st-links:hover {
+	background-color: #B2B294;
+	color: #3E4B62;
+}
+
+.collage {
+	float: right;
+	height: 400px;
+	width: 300px;
+	border-radius: 5%;
+	border: 7px solid #3E4B62;
 }
