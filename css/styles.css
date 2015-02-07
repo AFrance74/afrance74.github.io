@@ -203,8 +203,8 @@ Feel free to change */
 }*/
 /* No H2 level headings at this time. */
 
-.container h3 {
-		
+.body-text h3 {
+		padding: 0;
 }
 
 section {
