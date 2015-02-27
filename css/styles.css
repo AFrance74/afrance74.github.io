@@ -81,7 +81,7 @@ nav a:active {
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	color: #545C82;
-	text-shadow: 5px 8px 10px;
+	text-shadow: 2px 4px 20px;
 }
 
 h3 {
@@ -169,8 +169,7 @@ h3 {
 /******* END OF BIO/RESUME *********/
 
 
-/* Layout for Style Tile
-Feel free to change */
+/******** Layout for Style Tile ********/
 
 
 .color-1,
@@ -191,7 +190,7 @@ Feel free to change */
 	width: 50px;
 }
 
-/* Set Your Own Typography */
+/* Typography */
 
 .container h1 {
 		font-weight: 700;
@@ -235,7 +234,7 @@ section {
 
 .palettes {
 	background: #E5C49A;
-	float: left;
+	float: right;
 }
 
 .color-1 {
@@ -285,9 +284,10 @@ section {
 }
 
 .collage {
-	float: right;
+	float: left;
 	height: 400px;
 	width: 300px;
 	border-radius: 5%;
 	border: 7px solid #3E4B62;
+	margin-top: 20px;
 }
