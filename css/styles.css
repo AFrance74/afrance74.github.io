@@ -151,11 +151,11 @@ h3 {
 }
 
 .resume-content {
-	float: right;
+	float: left;
 }
 
 .bio-content {
-	float: left;
+	float: right;
 }
 
 .home-page {
@@ -334,7 +334,6 @@ figure h5 {
 /* Caption Container */
 .thumbnail {
   position: relative;
-
   height: 150px;
   width: 150px;
   overflow: hidden;
