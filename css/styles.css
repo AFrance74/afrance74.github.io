@@ -2,12 +2,12 @@
 /***************** GLOBAL *************************/
 body {
 	font-family: 'Slabo 27px', serif;
-	background: url("../img/COLOURlovers.com-Fossilized.png") no-repeat center;
+	background: url("../img/ricepaper_v3_@2X.png") no-repeat center;
 	background-size: cover;
 }
 
 header {
-	background-color: #B2B294;
+	background-color: #E1DFCB;
 	border-bottom: 5px solid #3E4B62;
 }
 
@@ -17,7 +17,7 @@ footer {
 	border-bottom: 10px solid #3E4B62;
 	text-align: center;
 	padding-bottom: 10px;
-	background: #E5C49A;
+	background: #E1DFCB;
 }
 
 .container {
@@ -31,7 +31,7 @@ footer {
 	padding-left: 18px;
 }
 
-/************* NAV BARS *******************************/
+/************* NAV BARS *****************/
 
 
 nav  {
@@ -134,7 +134,7 @@ h3 {
 
 .content {
 	overflow: auto;
-	background: #E5C49A;
+	background: #E1DFCB;
 	border-top: 2px solid #3E4B62;
 }
 
@@ -164,6 +164,116 @@ h3 {
 }
 
 /******* END OF BIO/RESUME *********/
+
+
+
+/**********************************************
+************* PORTFOLIO GALLERY ***************
+***********************************************/
+
+#work {
+	min-height: 900px;
+	max-width: 800px;
+	margin: 0 10%;
+}
+
+/****** Layout of gallery items ******/
+figure { 
+  background: white;
+  border-bottom: 20px solid white;
+  border-radius: 4px;
+  box-shadow: 2px 2px 15px #696969;
+  padding: 10px;
+  float: left;
+  height: 150px;
+  margin: 40px;
+  width: 150px;
+  position: relative;
+}
+
+/****** Thumbnail Headings ******/
+figure h5 {
+	font-family: 'Slabo', serif;
+	background: rgba(229,196,154,.75);
+	color: #3E4B62;
+	padding: 5px;
+	text-align: right;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	right: -40px;
+	width: 100%; 
+	z-index: 2;
+}
+
+/* Caption Container */
+.thumbnail {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
+/******  ANIMATION  *******/
+
+/* Caption - First Frame */
+.thumbnail p {
+  background: rgba(255,255,255,.75);
+  font-size: .75em;
+  font-style: italic;
+  padding: .25em;
+  text-align: center;
+  position: absolute;
+  margin: 0;  
+  bottom: -80px;
+}
+
+.thumbnail:hover {
+	transform: scale(3);
+	z-index: 3;
+}
+
+/* Caption - Last Frame */
+.thumbnail:hover p {
+  bottom: 0;
+  -webkit-animation: slideInUp .5s;
+  animation: slideInUp .5s;
+}
+
+ /* Keyframe Animation*/
+  @-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 /******** Layout for Style Tile ********/
 
@@ -293,113 +403,9 @@ div [.color] {
 }
 
 
-/******* PORTFOLIO ****************/
-
-#work {
-	min-height: 900px;
-	max-width: 800px;
-	margin: 0 10%;
-}
-
-/* Layout of gallery items*/
-figure { 
-  background: white;
-  border-bottom: 20px solid white;
-  border-radius: 4px;
-  box-shadow: 2px 2px 15px #696969;
-  padding: 10px;
-  float: left;
-  height: 150px;
-  margin: 40px;
-  width: 150px;
-  position: relative;
-}
-
-/* Thumbnail Headings */
-figure h5 {
-	font-family: 'Slabo', serif;
-	background: rgba(229,196,154,.75);
-	color: #3E4B62;
-	padding: 5px;
-	text-align: right;
-	letter-spacing: 3px;
-	text-transform: uppercase;
-	position: absolute;
-	top: 0;
-	right: -40px;
-	width: 100%; 
-	z-index: 2;
-}
-
-/* Caption Container */
-.thumbnail {
-  position: relative;
-  height: 150px;
-  width: 150px;
-  overflow: hidden;
-}
 
 
-
-/* Caption - First Frame */
-.thumbnail p {
-  background: rgba(255,255,255,.75);
-  font-size: .75em;
-  font-style: italic;
-  padding: .25em;
-  text-align: center;
-  position: absolute;
-  margin: 0;  
-  bottom: -80px;
-}
-
-.thumbnail:hover {
-	transform: scale(3);
-	z-index: 3;
-}
-
-/* Caption - Last Frame */
-.thumbnail:hover p {
-  bottom: 0;
-  -webkit-animation: slideInUp .5s;
-  animation: slideInUp .5s;
-}
-
- /* Keyframe Animation*/
-  @-webkit-keyframes slideInUp {
-  0% {
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-    visibility: visible;
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideInUp {
-  0% {
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
-    visibility: visible;
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-
-/*  MEDIA QUERIES  */
+/*********  MEDIA QUERIES  *************/
 
 /* Mobile Query */
 @media (max-width: 480px) {
@@ -488,7 +494,7 @@ figure h5 {
 
 }
 
-/* Deskops */
+/* Desktops */
 @media (min-width: 900px) {
 	.cover-image-small {
 		display: none;
