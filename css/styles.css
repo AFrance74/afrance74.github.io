@@ -1,4 +1,3 @@
-
 /***************** GLOBAL *************************/
 body {
 	font-family: 'Slabo 27px', serif;
@@ -42,6 +41,10 @@ ul {
 	list-style: none;
 }
 
+#index-nav-bar li {
+	display: inline;
+	}
+
 li a:link, 
 li a:visited{
   color: #9c6b95;
@@ -54,8 +57,13 @@ li a:focus {
 
 li a:hover {
 	background-color: #B2B294;
-	color: #3E4B62;
+	color: #fff;
 }
+
+#contact-info li a:hover {
+	background-color: #B2B294;
+	color: #fff;
+	}
 
 li a:active {
 	background: #E5C49A;
@@ -64,10 +72,13 @@ li a:active {
 	list-style: none;
 	margin: 1px 50px;
 }
-
-.web-links {
+.web-links li {
+	display: inline;	
+	}
+	
+/*.web-links {
 	display: block;
-}
+}*/
 
 .web-links li a:link,
 .web-links li a:visited {
@@ -172,24 +183,36 @@ h3 {
 ***********************************************/
 
 #work {
-	min-height: 900px;
-	max-width: 800px;
+	overflow: auto;
+	min-height: 1500px;
+	max-width: 1100px;
 	margin: 0 10%;
 }
 
 /****** Layout of gallery items ******/
-figure { 
-  background: white;
-  border-bottom: 20px solid white;
-  border-radius: 4px;
-  box-shadow: 2px 2px 15px #696969;
-  padding: 10px;
-  float: left;
-  height: 150px;
-  margin: 40px;
-  width: 150px;
-  position: relative;
+figure {
+	background: white;
+	border: 5px solid #3E4B62;
+	border-radius: 4px;
+	box-shadow: 2px 2px 15px #696969;
+	padding: 10px;
+	float: left;
+	height: 300px;
+	margin-top: 40px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 200px;
+	width: 300px;
+	position: relative;
 }
+
+
+
+figure img {
+	width: 232;
+	height: 300px;
+	padding-left: 40px;
+	}
 
 /****** Thumbnail Headings ******/
 figure h5 {
@@ -207,11 +230,34 @@ figure h5 {
 	z-index: 2;
 }
 
+.outer-caption {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	padding: 2px;
+	background-color: #9c6b95;
+	color: #fff;
+	}
+.outer-caption h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.outer-caption ul {
+	margin-top: 0;
+}
+.outer-caption li {
+	font-size: 0.75em;
+}
+
 /* Caption Container */
 .thumbnail {
   position: relative;
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
   overflow: hidden;
 }
 
@@ -230,7 +276,7 @@ figure h5 {
 }
 
 .thumbnail:hover {
-	transform: scale(3);
+	transform: scale(2);
 	z-index: 3;
 }
 
