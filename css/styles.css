@@ -198,7 +198,7 @@ figure {
 	padding: 10px;
 	float: left;
 	height: 300px;
-	margin-top: 40px;
+	margin-top: 140px;
 	margin-right: 100px;
 	margin-left: 100px;
 	margin-bottom: 200px;
@@ -217,7 +217,7 @@ figure img {
 /****** Thumbnail Headings ******/
 figure h5 {
 	font-family: 'Slabo', serif;
-	background: rgba(229,196,154,.75);
+	background: rgba(229,196,154,1);
 	color: #3E4B62;
 	padding: 5px;
 	text-align: right;
@@ -241,16 +241,37 @@ figure h5 {
 	padding: 2px;
 	background-color: #9c6b95;
 	color: #fff;
+	border: 2px solid #3E4B62;
+	border-radius: 4px;
 	}
 .outer-caption h4 {
 	margin-top: 5px;
 	margin-bottom: 5px;
+	padding-left: 10px;
 }
 .outer-caption ul {
 	margin-top: 0;
+	padding: 0 25px;
 }
 .outer-caption li {
 	font-size: 0.75em;
+}
+.outer-caption a:link, 
+.outer-caption a:visited {
+	text-decoration: none;
+	color: #E1DFCB;
+}
+.outer-caption a:focus {
+	color: #fff;
+ 	background: #E5C49A;
+ }
+.outer-caption a:hover {
+	color: #fff;
+	background-color: #B2B294;
+}
+.outer-caption a:active {
+	color: #fff;
+	background-color: #E5C49A;
 }
 
 /* Caption Container */
@@ -282,9 +303,10 @@ figure h5 {
 
 /* Caption - Last Frame */
 .thumbnail:hover p {
-  bottom: 0;
-  -webkit-animation: slideInUp .5s;
-  animation: slideInUp .5s;
+	padding-left: 1.75em;
+  	bottom: 0;
+  	-webkit-animation: slideInUp .5s;
+  	animation: slideInUp .5s;
 }
 
  /* Keyframe Animation*/
