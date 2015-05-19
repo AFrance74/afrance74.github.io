@@ -1,6 +1,8 @@
 /***************** GLOBAL *************************/
 body {
-	font-family: 'Slabo 27px', serif;
+	/*font-family: 'Slabo 27px', serif;*/
+	font-family: 'Overlock', cursive;
+	font-style: normal;
 	background: url("../img/ricepaper_v3_@2X.png") no-repeat center;
 	background-size: cover;
 }
@@ -10,6 +12,11 @@ header {
 	border-bottom: 5px solid #3E4B62;
 }
 
+#index-heading {
+	font-family: 'Overlock', cursive;
+	font-size: 2em;
+}
+
 footer {
 	margin: 0 auto;
 	border-top: 2px solid #3E4B62;
@@ -17,6 +24,10 @@ footer {
 	text-align: center;
 	padding-bottom: 10px;
 	background: #E1DFCB;
+}
+
+*a {
+	font-family: 'Pompiere', cursive;
 }
 
 .container {
@@ -141,18 +152,24 @@ li a:active {
 ***************************************************/
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Overlock', cursive;
+	font-weight: 900;
 	color: #545C82;
 	text-shadow: 2px 4px 20px;
 }
 
 h3 {
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Overlock', cursive;
+	font-weight: 700;
+	font-style: italic;
 	color: #545C82;
 	margin: auto 20px;
 }
 
 .main-headings {
+	font-family: 'Overlock', cursive;
 	float: right;
 	margin: 50px;
 	padding: 50px 0;
