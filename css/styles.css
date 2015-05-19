@@ -14,7 +14,7 @@ header {
 
 #index-heading {
 	font-family: 'Overlock', cursive;
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 footer {
@@ -26,9 +26,7 @@ footer {
 	background: #E1DFCB;
 }
 
-*a {
-	font-family: 'Pompiere', cursive;
-}
+
 
 .container {
 	width: 1000px;
@@ -420,7 +418,8 @@ figure h5 {
 }
 
 .container h2 {
-	font-family: 'Open Sans', sans-serif;
+/*	font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Overlock', cursive;
 	font-weight: 400;
 }
 
